@@ -17,7 +17,7 @@ List<Product> products = pd.getAllProducts();
 <html>
 <head>
 <meta charset="UTF-8">
-<title>WELCOME TO SHOPPING PAGE</title>
+<title>WELCOME TO SHOPPING PAGE !</title>
 <%@include file="includes/head.jsp"%>
 
 </head>
