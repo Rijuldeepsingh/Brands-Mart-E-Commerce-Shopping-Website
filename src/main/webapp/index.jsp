@@ -54,7 +54,7 @@ List<Product> products = pd.getAllProducts();
 			<%
 			}
 			} else {
-			out.println("There is no Products.");
+			out.println("There is no Products. ");
 			}
 			%>
 
