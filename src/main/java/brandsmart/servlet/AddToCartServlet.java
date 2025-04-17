@@ -41,6 +41,12 @@ public class AddToCartServlet extends HttpServlet {
 				cartList.add(cm);
 				session.setAttribute("cart-list", cartList);
 				out.println("session created and added the  list");
+			}else {
+				cartList = cart_list;
+				boolean exist = false;
+//				for(Cart c:cartList) {
+//					out.println(c.getId());
+//				}
 			}
 		}
 	}
